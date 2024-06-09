@@ -5,7 +5,7 @@ import copyright from '../../public/copyright.svg'
 
 export function Footer(){
     return(
-        <div className="w-full min-h-screen flex flex-col justify-between lg:justify-center snap-section border-t border-[#3A506B] relative">
+        <div className="w-full h-screen flex flex-col justify-between lg:justify-center snap-section border-t border-[#3A506B] relative">
             <div className="flex flex-row lg:flex-row justify-between px-4 lg:px-[4%] py-8 lg:py-16">
                 <Image className="w-[100px] h-[50px] lg:w-[150px] lg:h-[100px] mb-4 lg:mb-0" src={logo} alt="" />
                 <div className="flex flex-row lg:flex-row gap-8 lg:gap-[90px] mb-4 lg:mb-0">
