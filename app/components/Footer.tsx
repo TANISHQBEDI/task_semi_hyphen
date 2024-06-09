@@ -31,7 +31,7 @@ export function Footer(){
                     </div>
                 </div>
                 <button className="bg-[#5BC0BE] w-[100px] lg:w-[130px] flex flex-row h-[35px] lg:h-[40px] border border-[#3A506B] shadow-sm shadow-[#67E6D8] justify-center items-center rounded-[5px]">
-                    <span className="font-[700]">Launch App</span>
+                    <span className="font-[700] text-[15px]">Launch App</span>
                 </button>
             </div>
             <div className="relative lg:absolute lg:bottom-0 lg:left-0 w-full lg:w-auto text-left flex flex-col lg:flex-row items-center px-4 lg:px-10 py-8 lg:py-16">
