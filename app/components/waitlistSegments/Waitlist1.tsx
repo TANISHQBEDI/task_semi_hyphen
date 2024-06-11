@@ -15,7 +15,7 @@ import bg from '../../../public/card/bg.svg'
 
 import { useState } from "react"
 
-export function Waitlist1() {
+export default function Waitlist1() {
     const [selectedButton, setSelectedButton] = useState('one');
 
     const handleButtonClick = (button:string) => {
