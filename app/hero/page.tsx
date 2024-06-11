@@ -1,3 +1,5 @@
+"use client"
+
 import { Hero1 } from '../components/heroSegments/Hero1';
 import { Hero2 } from "../components/heroSegments/Hero2";
 import { Hero3 } from "../components/heroSegments/Hero3";

@@ -1,3 +1,5 @@
+"use client"
+
 import { Waitlist1 } from "../components/waitlistSegments/Waitlist1";
 import {Waitlist2} from "../components/waitlistSegments/Waitlist2";
 import { Waitlist3 } from "../components/waitlistSegments/Waitlist3";

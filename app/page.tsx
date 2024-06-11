@@ -1,5 +1,4 @@
 
-"use client"
 
 import { Hero } from "./hero/page";
 import { Navbar } from "./components/Navbar";
