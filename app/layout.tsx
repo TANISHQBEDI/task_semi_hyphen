@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,9 +21,14 @@ export default function RootLayout({
       <body className={`${inter.className} min-h-screen`}>
         {/* <div className="absolute inset-0 bg-my bg-fixed bg-cover bg-center opacity-20 z-0"></div> */}
         <div className="fixed inset-0 bg-my bg-cover bg-center opacity-30 z-0 pointer-events-none"></div>
+        
         {/* {children} */}
-        <div className="relative z-10 snap-y snap-mandatory h-screen overflow-y-scroll ">{children}</div>
-
+        <div className="relative z-10 snap-y snap-mandatory h-screen overflow-y-scroll ">
+          <Navbar/>
+          {children}
+          <Footer/>
+        </div>
+        
       </body>
       
     </html>

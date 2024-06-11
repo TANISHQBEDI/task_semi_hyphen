@@ -1,10 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
+
+
+
+.expanded {
+    transition: transform 0.3s ease;
+  }
+  
 body {
     @apply bg-[#040404];
+    overflow-x: hidden;
+    font-family: 'Sarabun'
 }
 
 .bg-overlay {
@@ -21,3 +33,21 @@ body {
 .snap-section{
     scroll-snap-align: start;
 }
+
+
+
+.image-container {
+    width: 100px; /* Adjust dimensions as needed */
+    height: 100px;
+    background-size: cover;
+    animation: rotation infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

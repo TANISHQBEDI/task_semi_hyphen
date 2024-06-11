@@ -3,6 +3,7 @@ import logo from '../../public/logo.svg'
 import arrow_u_r from '../../public/arrow_u_r.svg'
 import twitter from '../../public/twitter.svg'
 import telegram from '../../public/telegram.svg'
+import Link from 'next/link'
 
 export  function Navbar() {
   return (
@@ -18,11 +19,13 @@ export  function Navbar() {
           <span className='text-[#909090]'>Doc</span>
           <Image src={arrow_u_r} alt=''/>
         </div>
+        <Link href='/waitlist'>
+          <div className='hidden lg:flex gap-x-1 items-center'>
+            <span className='text-[#909090]'>WaitList</span>
+            <Image src={arrow_u_r} alt=''/>
+          </div>
+        </Link>
         
-        <div className='hidden lg:flex gap-x-1 items-center'>
-          <span className='text-[#909090]'>WaitList</span>
-          <Image src={arrow_u_r} alt=''/>
-        </div>
         
       </div>  
       <div className='flex items-center gap-x-6'>
