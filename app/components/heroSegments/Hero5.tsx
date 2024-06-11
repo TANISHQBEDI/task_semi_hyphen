@@ -7,7 +7,7 @@ import hero_bottom_1 from '../../../public/hero_bottom_1.svg'
 import hero_bottom_2 from '../../../../public/hero_bottom_2.svg'
 import line from '../../../public/line.svg'
 
-export function Hero5(){
+export default function Hero5(){
     const inputRef = useRef<HTMLInputElement>(null);
 
     const handleInput = () => {

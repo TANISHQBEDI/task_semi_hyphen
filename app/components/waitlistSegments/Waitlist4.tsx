@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import faq from '../../../public/faq.svg';
 
-export function Waitlist4() {
+export default function Waitlist4() {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     const contentRefs = useRef<Array<HTMLDivElement | null>>([]);
 
