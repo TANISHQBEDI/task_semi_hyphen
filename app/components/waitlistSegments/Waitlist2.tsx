@@ -1,6 +1,6 @@
 // pages/Waitlist2.tsx
 import React from "react";
-import RotatingSphere from "../../components/RotatingSphere";
+import RotatingSphere from "../RotatingSphere";
 
 import Image from "next/image";
 

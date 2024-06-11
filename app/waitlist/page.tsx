@@ -1,7 +1,7 @@
-import { Waitlist1 } from "./segments/Waitlist1";
-import {Waitlist2} from "./segments/Waitlist2";
-import { Waitlist3 } from "./segments/Waitlist3";
-import { Waitlist4 } from "./segments/Waitlist4";
+import { Waitlist1 } from "../components/segments/Waitlist1";
+import {Waitlist2} from "../components/segments/Waitlist2";
+import { Waitlist3 } from "../components/segments/Waitlist3";
+import { Waitlist4 } from "../components/segments/Waitlist4";
 
 export default function Waitlist(){
     return(
