@@ -9,7 +9,7 @@ import image2 from '../../../public/tree/image1.svg';
 import image3 from '../../../public/tree/image1.svg';
 import image4 from '../../../public/tree/image1.svg';
 
-export default function Waitlist3() {
+const Waitlist3=()=> {
     const [activeButton, setActiveButton] = useState(1);
 
     const content = [
@@ -72,3 +72,5 @@ export default function Waitlist3() {
         </div>
     );
 }
+
+export default Waitlist3;

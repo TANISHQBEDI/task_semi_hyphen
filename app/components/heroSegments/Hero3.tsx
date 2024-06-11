@@ -26,7 +26,7 @@ export function Card({ icon, title, description }:CardProps) {
         </div>
     )
 }
-export function Hero3(){
+export  function Hero3(){
     return(
         <div className="w-full h-screen gap-y-1 flex items-center lg:justify-center relative snap-section">
             

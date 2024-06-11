@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import faq from '../../../public/faq.svg';
 
-export default function Waitlist4() {
+const Waitlist4=()=> {
     const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
     const contentRefs = useRef<Array<HTMLDivElement | null>>([]);
 
@@ -45,3 +45,5 @@ export default function Waitlist4() {
         </div>
     );
 }
+
+export default Waitlist4;
