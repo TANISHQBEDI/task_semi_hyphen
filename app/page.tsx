@@ -1,6 +1,6 @@
 
 
-import { Hero } from "./hero/page";
+import Hero  from "./hero/page";
 
 
 

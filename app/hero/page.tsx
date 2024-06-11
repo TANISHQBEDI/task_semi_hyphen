@@ -6,7 +6,7 @@ import {Hero3}  from "../components/heroSegments/Hero3";
 import {Hero4}  from "../components/heroSegments/Hero4";
 import Hero5  from "../components/heroSegments/Hero5";
 
-export function Hero(){
+const Hero=()=>{
     return(
         <>
             <Hero1/>
@@ -17,3 +17,5 @@ export function Hero(){
         </>
     )
 }
+
+export default Hero;
