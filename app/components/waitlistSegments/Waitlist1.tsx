@@ -1,4 +1,4 @@
-"use client"
+
 
 import Image from "next/image"
 import arrow_u_r from '../../../public/arrow_u_r.svg'
