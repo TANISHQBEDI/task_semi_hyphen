@@ -1,8 +1,8 @@
-import hero_l from '../../../../public/hero_l.svg'
-import hero_r from '../../../../public/hero_r.svg'
-import hero_main from '../../../../public/hero_main.svg'
-import hero_cc from '../../../../public/hero_cc.svg'
-import arrow_u_r from '../../../../public/arrow_u_r.svg'
+import hero_l from '../../../public/hero_l.svg'
+import hero_r from '../../../public/hero_r.svg'
+import hero_main from '../../../public/hero_main.svg'
+import hero_cc from '../../../public/hero_cc.svg'
+import arrow_u_r from '../../../public/arrow_u_r.svg'
 // import bg from '../../public/bg.png'
 
 import Image from 'next/image'

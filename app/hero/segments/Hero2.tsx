@@ -1,7 +1,7 @@
 
 import Image from 'next/image'
 
-import hero2 from '../../../../public/hero-main-2.svg'
+import hero2 from '../../../public/hero-main-2.svg'
 
 export function Hero2(){
     return(

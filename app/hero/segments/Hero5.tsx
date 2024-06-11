@@ -3,9 +3,9 @@
 import Image from "next/image"
 import { useRef } from "react"
 
-import hero_bottom_1 from '../../../../public/hero_bottom_1.svg'
+import hero_bottom_1 from '../../../public/hero_bottom_1.svg'
 import hero_bottom_2 from '../../../../public/hero_bottom_2.svg'
-import line from '../../../../public/line.svg'
+import line from '../../../public/line.svg'
 
 export function Hero5(){
     const inputRef = useRef<HTMLInputElement>(null);

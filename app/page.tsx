@@ -1,4 +1,4 @@
-import { Hero } from "./pages/hero/page";
+import { Hero } from "./hero/page";
 import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 

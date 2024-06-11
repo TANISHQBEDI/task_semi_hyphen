@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import arrow_u_r from '../../../public/arrow_u_r.svg'
 
-const Waitlist2: React.FC = () => {
+export function Waitlist2(){
   return (
     <div className="w-full h-screen snap-section relative">
         <div className="absolute right-0 top-[10%] h-full w-full flex flex-col items-center justify-center space-y-8 lg:space-y-12">
@@ -43,4 +43,4 @@ const Waitlist2: React.FC = () => {
   );
 };
 
-export default Waitlist2;
+

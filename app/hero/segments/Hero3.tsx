@@ -1,8 +1,8 @@
-import arrow_u_r from '../../../../public/arrow_u_r.svg'
-import swap from '../../../../public/swap.svg'
-import liquidity from '../../../../public/liquidity.svg'
-import bridge from '../../../../public/bridge.svg'
-import hero_bottom_1 from '../../../../public/hero_bottom_1.svg'
+import arrow_u_r from '../../../public/arrow_u_r.svg'
+import swap from '../../../public/swap.svg'
+import liquidity from '../../../public/liquidity.svg'
+import bridge from '../../../public/bridge.svg'
+import hero_bottom_1 from '../../../public/hero_bottom_1.svg'
 import hero_bottom_2 from '../../public/hero_bottom_2.svg'
 
 import Image, { ImageProps } from 'next/image'

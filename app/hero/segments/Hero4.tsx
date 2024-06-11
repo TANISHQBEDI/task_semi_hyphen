@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import twitter from '../../../../public/button/twitter.svg'
-import telegram from '../../../../public/button/telegram.svg'
-import medium from '../../../../public/button/medium.svg'
-import arrow_u_r from '../../../../public/arrow_u_r.svg'
+import twitter from '../../../public/button/twitter.svg'
+import telegram from '../../../public/button/telegram.svg'
+import medium from '../../../public/button/medium.svg'
+import arrow_u_r from '../../../public/arrow_u_r.svg'
 
 export function Hero4(){
     return(
