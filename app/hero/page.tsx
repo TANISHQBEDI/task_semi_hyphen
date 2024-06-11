@@ -1,4 +1,4 @@
-"use client"
+
 
 import { Hero1 } from '../components/heroSegments/Hero1';
 import { Hero2 } from "../components/heroSegments/Hero2";
